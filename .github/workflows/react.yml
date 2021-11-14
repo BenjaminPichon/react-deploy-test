@@ -2,14 +2,14 @@ name: React CI/CD
 
 on:
   push:
-    branches: [react]
+    branches: [deploy]
 
 
 jobs:
   build:
 
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
