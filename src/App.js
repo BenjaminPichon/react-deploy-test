@@ -60,7 +60,9 @@ function App() {
         </div>
         ) : ('')}
       </main>
+      <p>learn React</p>
     </div>
+    
   );
 }
 
